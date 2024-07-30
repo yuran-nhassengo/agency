@@ -75,7 +75,7 @@ export const NavBar = () => {
                 </div>
             </div>
 
-            <div className={`space-y-4 px-4 mt-16 py-7 bg-brandPrimary ${isMenuOpen ?"block fixed top-0 right-0 left-0" :"hidden"} `}>
+            <div className={`space-y-4 px-4 mt-16 py-7 bg-cyan-300 ${isMenuOpen ?"block fixed top-0 right-0 left-0" :"hidden"} `}>
 
                     {
                         navItems.map(({link,path}) =><Link to={path} spy={true} smooth={true} 
